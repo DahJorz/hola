@@ -1,0 +1,7 @@
+  {
+    "cmds": [{
+      "hosts": ["www.game4u.com"],
+      "if": [{"http://www.game4u.com/": ".*/authentication$", "type": "!~", "then": "DIRECT"}],
+      "then": "PROXY IN"
+    }]
+  }
