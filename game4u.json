@@ -1,0 +1,11 @@
+  {
+    "name": "game4u india",
+    "site": "game4u",
+    "unblocker_rules": {
+      "game4u_IN": {
+        "description": "Route requests to game4u from India",
+        "link": "www.game4u.com",
+        "cmds": [{"hosts": ["game4u.com"], "then": "PROXY IN"}]
+      }
+    }
+  }
